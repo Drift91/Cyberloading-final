@@ -22,3 +22,8 @@ files {
 }
 
 loadscreen 'index.html'
+
+
+-- Shutdown loading-screen upon 'playerSpawned' event-handler.
+loadscreen_manual_shutdown 'yes'
+client_script 'client.lua'
